@@ -556,12 +556,19 @@ section{
 }
 .tags{
     background-color: #C39BD3;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .tags .tags1{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
 
+}
+.tags .tags1 h2{
+    font-weight: 700;
+    font-size: 30px;
 }
 .tags .tags1 img{
     display: block;
@@ -577,6 +584,38 @@ section{
     font-size: 20px;
     font-weight: 500;
 
+}
+.tags .tags2 img{
+    width: 40%;
+    display:inline-flex;    
+}
+.img01{
+    margin:0 1% 0 6% !important;
+}
+.img02{
+    margin:0 0% 0 1% !important;
+}
+
+.tags .tags1 button{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: .75rem 2.5rem;
+    border-radius: 50px;
+    margin: 10px;
+    border : 2px solid darkmagenta;
+    background-color: transparent;
+    color: darkmagenta;
+    transition: 0.6s all;
+    border-radius: .5rem;
+    margin-top: 50px;
+}
+.tags .tags1 button:hover{
+    background-color: darkmagenta;
+    color: #fff;
 }
 #footer{
     background-color:darkmagenta;
